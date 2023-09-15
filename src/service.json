@@ -1,0 +1,18 @@
+
+[
+  {
+    "id": 1,
+    "name": "Pet Shower",
+    "price": 30.0
+  },
+  {
+    "id": 2,
+    "name": "Nail Cutting",
+    "price": 15.0
+  },
+  {
+    "id": 3,
+    "name": "Surgery",
+    "price": 200.0
+  }
+]

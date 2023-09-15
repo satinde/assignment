@@ -1,0 +1,108 @@
+.signup{
+    display: flex;
+    justify-content: space-between;
+
+    .signup-left{
+        height: 100vh;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            p{
+                font-size: 1.7rem;
+            }
+        }
+    }
+    .signup-righ{
+        width: 45%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+        padding: 5rem 0;
+        .signup-righ-logo{
+            .logo{
+                font-size: 2.5rem;
+                font-weight: bolder;
+                color: $black;
+            }
+        }
+        .signup-righ-para{
+            position: relative;
+            h1{
+                font-size: 1.7rem;
+                font-weight: 300;
+            }
+            h1::after{
+                content: "";
+                position: absolute;
+                height: 1px;
+                width: 200px;
+                background-color: #777d85;
+                top: 50%;
+                left: 125%;
+          
+            }
+            h1::before{
+                content: "";
+                position: absolute;
+                height: 1px;
+                width: 200px;
+                background-color: #777d85;
+                top: 50%;
+                right: 125%;
+          
+            }
+        }
+        .social-media{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            .img{
+                width: 6rem;
+                height: 6rem;
+            }
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            align-items: center;
+            width: 100%;
+            .label-input{
+                display: flex;
+                flex-direction: column;
+                width: 60%;
+                gap: 1rem;
+                label{
+                    font-size: 1.7rem;
+                    color: $black;
+                }
+                input{
+                    padding: 1rem;
+                    background-color: transparent;
+                    border-radius: 0.5rem;
+                    border: 0.2rem solid #130f40;
+                    font-size: 1.7rem;
+                }
+            }
+            p{
+                font-size: 1.7rem;
+                color: $black;
+                line-height: 2rem;
+                text-align: center;
+                span{
+                    color: $orange;
+                }
+            }
+        }
+    }
+}
